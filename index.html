@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover" />
+  <title>A Chave para a Autoconfiança | Fernanda Simões</title>
+  <meta name="description" content="Terapeuta revela: 2 exercícios que mostram o que está por trás da insegurança que te faz se calar, se comparar e se sabotar." />
+  <meta name="theme-color" content="#fcfbf9" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔑</text></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- Compiled Production CSS (Tailwind + Custom Styles) -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="antialiased selection:bg-gold-500 selection:text-white">
+
+  <!-- 1. FAIXA SUPERIOR DE URGÊNCIA -->
+  <aside aria-label="Aviso Importante" class="bg-espresso-900 border-b border-gold-500/30 text-cream-100 py-2.5 px-3.5 sticky top-0 z-50 shadow-md">
+    <div class="max-w-5xl mx-auto flex items-center justify-between text-xs sm:text-sm font-medium">
+      <div class="flex items-center gap-2 mx-auto sm:mx-0 text-center">
+        <span class="flex h-2 w-2 relative flex-shrink-0">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-coral-500 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2 w-2 bg-coral-600"></span>
+        </span>
+        <span class="text-cream-100 font-semibold tracking-wide">
+          O conteúdo desta página poderá sair do ar a qualquer momento.
+        </span>
+      </div>
+      <div class="hidden sm:flex items-center gap-2 font-mono text-gold-300 font-bold bg-espresso-950/80 px-3 py-1 rounded-full border border-gold-500/20 text-xs">
+        <i class="fa-regular fa-clock"></i>
+        <span>Tempo restante:</span>
+        <span id="countdown-timer">14:59</span>
+      </div>
+    </div>
+  </aside>
+
+    <!-- 2. SEÇÃO HERO (ALTA CONVERSÃO) -->
+  <header class="relative pt-8 sm:pt-14 pb-12 sm:pb-16 overflow-hidden bg-gradient-to-b from-cream-100 via-cream-50 to-cream-100 border-b border-cream-300/80">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center relative z-10">
+      
+      <!-- Selo Superior -->
+      <div class="mb-4">
+        <span class="badge-pill">
+          <i class="fa-solid fa-key text-gold-600"></i>
+          A CHAVE PARA A AUTOCONFIANÇA
+        </span>
+      </div>
+
+      <!-- HEADLINE DA IMAGEM -->
+      <h1 class="font-heading text-[1.45rem] leading-[1.35] sm:text-4xl md:text-5xl lg:text-[2.65rem] font-extrabold text-espresso-950 tracking-tight sm:leading-[1.22] mb-6 sm:mb-8 text-center" style="text-wrap: balance;">
+        <span class="hl-screenshot">Terapeuta revela:</span> 2 exercícios que mostram o que está por trás da insegurança que te faz se <span class="hl-screenshot">calar</span>, se <span class="hl-screenshot">comparar</span> e se <span class="hl-screenshot">sabotar</span>.
+      </h1>
+
+      <!-- IMAGEM OFICIAL DA HERO -->
+      <div class="max-w-4xl mx-auto mb-7 sm:mb-9 rounded-2xl sm:rounded-3xl overflow-hidden border-2 border-gold-400/80 shadow-glow-gold bg-[#f8f4ee]">
+        <img 
+          src="images/hero_banner.jpg?v=3" 
+          alt="A Chave da Autoconfiança - Fernanda Simões" 
+          class="w-full h-auto object-cover block"
+          loading="eager"
+        />
+      </div>
+
+      <!-- BOTÃO CTA HERO -> APONTA DIRETO PARA OS DEPOIMENTOS -->
+      <div class="max-w-md mx-auto text-center">
+        <a 
+          href="#secao-depoimentos" 
+          class="btn-emerald-cta shimmer-effect w-full min-h-[56px] sm:min-h-[62px] inline-flex items-center justify-center px-6 py-4 text-sm sm:text-base rounded-2xl uppercase font-black text-center gap-2"
+        >
+          <span>QUERO DESTRAVAR MINHA AUTOCONFIANÇA</span>
+          <i class="fa-solid fa-arrow-down text-xs"></i>
+        </a>
+        
+        <!-- Trust Badges -->
+        <div class="flex items-center justify-center gap-3 sm:gap-5 text-[11px] sm:text-xs text-espresso-600 mt-3 font-medium">
+          <span class="flex items-center gap-1.5"><i class="fa-solid fa-bolt text-gold-600"></i> Acesso Imediato</span>
+          <span>•</span>
+          <span class="flex items-center gap-1.5"><i class="fa-solid fa-shield-halved text-emerald-600"></i> 7 Dias de Garantia</span>
+          <span>•</span>
+          <span class="flex items-center gap-1.5"><i class="fa-solid fa-lock text-emerald-600"></i> Compra Segura</span>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+
+  <!-- 3. SEÇÃO: DORES E IDENTIFICAÇÃO (POR QUE VOCÊ TRAVA?) -->
+  <section class="py-12 sm:py-20 bg-cream-50 border-b border-cream-300/80">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-2xl mx-auto mb-8 sm:mb-14">
+        <span class="badge-pill mb-2.5">
+          <i class="fa-solid fa-circle-exclamation text-coral-600"></i>
+          Identificação
+        </span>
+        <h2 class="section-title">
+          Você se reconhece em alguma dessas situações?
+        </h2>
+        <p class="text-espresso-700 text-xs sm:text-base mt-2 leading-relaxed">
+          A maioria das mulheres acha que a insegurança é um defeito de personalidade, quando na verdade é apenas um padrão de sobrevivência inconsciente.
+        </p>
+      </div>
+
+      <!-- Grid de Dores -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mb-8 sm:mb-12">
+        
+        <div class="card-sales p-5 sm:p-7 flex items-start gap-4 bg-white">
+          <div class="w-10 h-10 rounded-xl bg-coral-50 border border-coral-200 flex-shrink-0 flex items-center justify-center text-coral-600 text-base">
+            <i class="fa-solid fa-comment-slash"></i>
+          </div>
+          <div>
+            <h3 class="font-heading text-sm sm:text-base font-bold text-espresso-900 mb-1">
+              Medo de falar e se expor
+            </h3>
+            <p class="text-xs sm:text-sm text-espresso-700 leading-relaxed">
+              Você pensa mil vezes antes de dar sua opinião, engole o que sente e prefere se calar por receio de ser julgada ou rejeitada.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-sales p-5 sm:p-7 flex items-start gap-4 bg-white">
+          <div class="w-10 h-10 rounded-xl bg-coral-50 border border-coral-200 flex-shrink-0 flex items-center justify-center text-coral-600 text-base">
+            <i class="fa-solid fa-users-viewfinder"></i>
+          </div>
+          <div>
+            <h3 class="font-heading text-sm sm:text-base font-bold text-espresso-900 mb-1">
+              Necessidade de validação
+            </h3>
+            <p class="text-xs sm:text-sm text-espresso-700 leading-relaxed">
+              Só consegue se sentir segura se alguém confirmar que você está certa. Sem a aprovação dos outros, bate a dúvida imediata.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-sales p-5 sm:p-7 flex items-start gap-4 bg-white">
+          <div class="w-10 h-10 rounded-xl bg-coral-50 border border-coral-200 flex-shrink-0 flex items-center justify-center text-coral-600 text-base">
+            <i class="fa-solid fa-arrow-rotate-left"></i>
+          </div>
+          <div>
+            <h3 class="font-heading text-sm sm:text-base font-bold text-espresso-900 mb-1">
+              Voltar atrás nas decisões
+            </h3>
+            <p class="text-xs sm:text-sm text-espresso-700 leading-relaxed">
+              Você decide algo com convicção, mas na primeira insegurança ou opinião contrária, desiste e desfaz a própria escolha.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-sales p-5 sm:p-7 flex items-start gap-4 bg-white">
+          <div class="w-10 h-10 rounded-xl bg-coral-50 border border-coral-200 flex-shrink-0 flex items-center justify-center text-coral-600 text-base">
+            <i class="fa-solid fa-ban"></i>
+          </div>
+          <div>
+            <h3 class="font-heading text-sm sm:text-base font-bold text-espresso-900 mb-1">
+              Dizer "sim" querendo dizer "não"
+            </h3>
+            <p class="text-xs sm:text-sm text-espresso-700 leading-relaxed">
+              Dificuldade extrema em colocar limites. Assume tarefas e responsabilidades dos outros para não parecer egoísta ou desagradável.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Destaque / Frase de Impacto -->
+      <div class="bg-gradient-to-r from-cream-200 via-white to-cream-200 rounded-2xl p-5 sm:p-8 border border-gold-400/50 text-center max-w-2xl mx-auto shadow-soft">
+        <p class="font-serif italic text-espresso-800 text-sm sm:text-lg leading-snug">
+          "Autoconfiança não é fingir ser forte o tempo todo. É entender a raiz das suas travas para ter liberdade de agir com segurança."
+        </p>
+        <span class="block mt-2 text-xs font-bold text-gold-700 uppercase tracking-wider font-mono">
+          — Fernanda Simões
+        </span>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- 4. SEÇÃO: O MÉTODO & O QUE VOCÊ VAI APRENDER (3 MÓDULOS COM REPROGRAMAÇÃO MENTAL) -->
+  <section class="py-12 sm:py-20 bg-white border-b border-cream-300/80">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-2xl mx-auto mb-8 sm:mb-14">
+        <span class="badge-pill mb-2.5">
+          <i class="fa-solid fa-cubes-stacked text-gold-600"></i>
+          Conteúdo do Curso
+        </span>
+        <h2 class="section-title">
+          O que você vai aprender na prática:
+        </h2>
+        <p class="text-espresso-700 text-xs sm:text-base mt-2 leading-relaxed">
+          Um método direto e sem enrolação, organizado em 3 módulos progressivos para você assistir e aplicar no seu ritmo.
+        </p>
+      </div>
+
+      <!-- Lista Visual dos 3 Módulos -->
+      <div class="space-y-4 sm:space-y-6 max-w-3xl mx-auto">
+        
+        <!-- Introdução -->
+        <div class="card-sales p-5 sm:p-7 flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6 bg-white">
+          <div class="w-12 h-12 rounded-2xl bg-cream-200 border border-gold-400/60 flex-shrink-0 flex items-center justify-center text-gold-700 font-heading font-black text-base sm:text-lg">
+            <i class="fa-solid fa-door-open"></i>
+          </div>
+          <div class="flex-1">
+            <span class="text-[11px] font-mono text-gold-700 font-bold uppercase tracking-wider">Comece Aqui</span>
+            <h3 class="font-heading text-base sm:text-lg font-bold text-espresso-900 mt-0.5 mb-1">
+              Introdução: Preparando o Terreno
+            </h3>
+            <p class="text-xs sm:text-sm text-espresso-700 leading-relaxed">
+              Boas-vindas e alinhamento do método. Entenda como funciona a jornada de transformação, como absorver melhor as aulas e preparar sua mente para a virada de chave.
+            </p>
+          </div>
+        </div>
+
+        <!-- Módulo 1 -->
+        <div class="card-sales p-5 sm:p-7 flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6 bg-white">
+          <div class="w-12 h-12 rounded-2xl bg-cream-200 border border-gold-400/60 flex-shrink-0 flex items-center justify-center text-gold-700 font-heading font-black text-lg sm:text-xl">
+            01
+          </div>
+          <div class="flex-1">
+            <span class="text-[11px] font-mono text-gold-700 font-bold uppercase tracking-wider">Módulo 1</span>
+            <h3 class="font-heading text-base sm:text-lg font-bold text-espresso-900 mt-0.5 mb-1">
+              A Raiz da Insegurança & Os 2 Exercícios Chave
+            </h3>
+            <p class="text-xs sm:text-sm text-espresso-700 leading-relaxed">
+              Identifique a origem das suas travas emocionais e autossabotagem, e aprenda o passo a passo prático dos <strong>2 exercícios essenciais</strong> que mostram o que está por trás da insegurança que te faz se calar, se comparar e recuar.
+            </p>
+          </div>
+        </div>
+
+        <!-- Módulo 2: Destaque com Aula Completa de Reprogramação Mental -->
+        <div class="card-sales p-5 sm:p-7 flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6 bg-gradient-to-r from-cream-100 to-white border-2 border-gold-400 shadow-soft">
+          <div class="w-12 h-12 rounded-2xl bg-gold-500 text-white flex-shrink-0 flex items-center justify-center font-heading font-black text-lg sm:text-xl shadow-sm">
+            02
+          </div>
+          <div class="flex-1">
+            <div class="flex flex-wrap items-center gap-2 mb-1">
+              <span class="text-[11px] font-mono text-gold-700 font-bold uppercase tracking-wider">Módulo 2</span>
+              <span class="px-2 py-0.5 rounded-full bg-gold-500 text-white text-[10px] font-bold font-mono uppercase tracking-wide">
+                ⭐ Aula Completa de Reprogramação Mental
+              </span>
+            </div>
+            <h3 class="font-heading text-base sm:text-lg font-bold text-espresso-900 mt-0.5 mb-1">
+              Reprogramação Mental & Posicionamento
+            </h3>
+            <p class="text-xs sm:text-sm text-espresso-700 leading-relaxed">
+              Uma aula aprofundada e completa de <strong>Reprogramação Mental</strong> para romper crenças limitantes, redefinir sua autoimagem e construir uma confiança verdadeira para sustentar suas decisões e se posicionar com naturalidade.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- 5. SEÇÃO: BÔNUS EXCLUSIVOS -->
+  <section class="py-12 sm:py-20 bg-cream-100 border-b border-cream-300/80">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-2xl mx-auto mb-8 sm:mb-14">
+        <span class="badge-pill mb-2.5">
+          <i class="fa-solid fa-gift text-gold-600"></i>
+          Presentes Inclusos
+        </span>
+        <h2 class="section-title">
+          Bônus inclusos na sua inscrição hoje:
+        </h2>
+        <p class="text-espresso-700 text-xs sm:text-base mt-2 leading-relaxed">
+          Materiais complementares desenvolvidos para acelerar sua transformação no dia a dia.
+        </p>
+      </div>
+
+      <!-- 3 Cards de Bônus -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 mb-8">
+        
+        <!-- BÔNUS 1: APOSTILA -->
+        <div class="card-sales p-6 bg-white flex flex-col justify-between text-center border-2 border-gold-400/60">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-cream-200 border border-gold-300 flex items-center justify-center text-gold-700 text-xl mx-auto mb-4 shadow-soft">
+              <i class="fa-solid fa-book-open"></i>
+            </div>
+            <span class="text-[11px] font-mono text-gold-700 font-bold uppercase">Bônus #1</span>
+            <h3 class="font-heading text-base font-bold text-espresso-900 mt-1 mb-2">
+              Apostila: A Chave para a Autoconfiança
+            </h3>
+            <p class="text-xs sm:text-sm text-espresso-700 leading-relaxed">
+              O manual prático completo para você acompanhar todas as videoaulas, registrar seus aprendizados e fixar o método no seu ritmo.
+            </p>
+          </div>
+          <div class="mt-5 pt-3 border-t border-cream-300 flex items-center justify-between text-xs">
+            <span class="text-espresso-500 line-through font-mono">Valor: R$ 27</span>
+            <span class="text-emerald-700 font-bold font-mono">GRÁTIS</span>
+          </div>
+        </div>
+
+        <!-- BÔNUS 2 -->
+        <div class="card-sales p-6 bg-white flex flex-col justify-between text-center">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-cream-200 border border-gold-300 flex items-center justify-center text-gold-700 text-xl mx-auto mb-4">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <span class="text-[11px] font-mono text-gold-700 font-bold uppercase">Bônus #2</span>
+            <h3 class="font-heading text-base font-bold text-espresso-900 mt-1 mb-2">
+              Guia de Limites e Posicionamento
+            </h3>
+            <p class="text-xs sm:text-sm text-espresso-700 leading-relaxed">
+              Exercícios práticos para aprender a dizer "não" com segurança e sem peso na consciência.
+            </p>
+          </div>
+          <div class="mt-5 pt-3 border-t border-cream-300 flex items-center justify-between text-xs">
+            <span class="text-espresso-500 line-through font-mono">Valor: R$ 27</span>
+            <span class="text-emerald-700 font-bold font-mono">GRÁTIS</span>
+          </div>
+        </div>
+
+        <!-- BÔNUS 3 -->
+        <div class="card-sales p-6 bg-white flex flex-col justify-between text-center">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-cream-200 border border-gold-300 flex items-center justify-center text-gold-700 text-xl mx-auto mb-4">
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </div>
+            <span class="text-[11px] font-mono text-gold-700 font-bold uppercase">Bônus #3</span>
+            <h3 class="font-heading text-base font-bold text-espresso-900 mt-1 mb-2">
+              Exercício: Reconstruindo a Autoimagem
+            </h3>
+            <p class="text-xs sm:text-sm text-espresso-700 leading-relaxed">
+              Prática guiada para transformar a visão que você tem de si mesma e resgatar sua força.
+            </p>
+          </div>
+          <div class="mt-5 pt-3 border-t border-cream-300 flex items-center justify-between text-xs">
+            <span class="text-espresso-500 line-through font-mono">Valor: R$ 27</span>
+            <span class="text-emerald-700 font-bold font-mono">GRÁTIS</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="p-3.5 bg-white rounded-xl border border-gold-300 text-center max-w-md mx-auto shadow-soft">
+        <span class="text-xs sm:text-sm font-bold text-gold-700 font-heading uppercase">
+          🎁 Total em Bônus: R$ 81,00 (100% Grátis Hoje)
+        </span>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- 6. SEÇÃO DE DEPOIMENTOS EM VÍDEO (POSICIONADA ACIMA DO CARD DA OFERTA) -->
+  <section class="py-14 sm:py-24 bg-white border-b border-cream-300/80 overflow-hidden" id="secao-depoimentos">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 mb-8 text-center">
+      
+      <span class="badge-pill mb-2.5">
+        <i class="fa-solid fa-video text-gold-600"></i>
+        Depoimentos em Vídeo
+      </span>
+      <h2 class="section-title">
+        Veja os depoimentos de quem já transformou sua confiança:
+      </h2>
+      <p class="text-espresso-700 text-xs sm:text-base mt-2 max-w-2xl mx-auto leading-relaxed">
+        Clique para assistir aos depoimentos com áudio.
+      </p>
+    </div>
+
+    <!-- CARROSSEL INFINITO LENTO -->
+    <div class="video-track-container" id="video-carousel-container">
+      <div class="video-track" id="video-track-element">
+        
+        <!-- VÍDEO 1: Eros Prado -->
+        <div class="video-card" onclick="togglePlayVideo(1)">
+          <video id="video-player-1" class="video-element" playsinline preload="metadata" loop muted onloadedmetadata="this.currentTime=0.1">
+            <source src="videos/depoimento1.mp4#t=0.1" type="video/mp4">
+          </video>
+          <div class="play-overlay" id="play-overlay-1">
+            <div class="play-btn-circle">
+              <i class="fa-solid fa-play ml-0.5" id="play-icon-1"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- VÍDEO 2: D'Black -->
+        <div class="video-card" onclick="togglePlayVideo(2)">
+          <video id="video-player-2" class="video-element" playsinline preload="metadata" loop muted onloadedmetadata="this.currentTime=0.1">
+            <source src="videos/depoimento2.mp4#t=0.1" type="video/mp4">
+          </video>
+          <div class="play-overlay" id="play-overlay-2">
+            <div class="play-btn-circle">
+              <i class="fa-solid fa-play ml-0.5" id="play-icon-2"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- VÍDEO 3: Gabi -->
+        <div class="video-card" onclick="togglePlayVideo(3)">
+          <video id="video-player-3" class="video-element" playsinline preload="metadata" loop muted onloadedmetadata="this.currentTime=0.1">
+            <source src="videos/depoimento3.mp4#t=0.1" type="video/mp4">
+          </video>
+          <div class="play-overlay" id="play-overlay-3">
+            <div class="play-btn-circle">
+              <i class="fa-solid fa-play ml-0.5" id="play-icon-3"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- VÍDEO 4: Niuara -->
+        <div class="video-card" onclick="togglePlayVideo(4)">
+          <video id="video-player-4" class="video-element" playsinline preload="metadata" loop muted onloadedmetadata="this.currentTime=0.1">
+            <source src="videos/depoimento4.mp4#t=0.1" type="video/mp4">
+          </video>
+          <div class="play-overlay" id="play-overlay-4">
+            <div class="play-btn-circle">
+              <i class="fa-solid fa-play ml-0.5" id="play-icon-4"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- VÍDEO 5: Maria -->
+        <div class="video-card" onclick="togglePlayVideo(5)">
+          <video id="video-player-5" class="video-element" playsinline preload="metadata" loop muted onloadedmetadata="this.currentTime=0.1">
+            <source src="videos/depoimento5.mp4#t=0.1" type="video/mp4">
+          </video>
+          <div class="play-overlay" id="play-overlay-5">
+            <div class="play-btn-circle">
+              <i class="fa-solid fa-play ml-0.5" id="play-icon-5"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- VÍDEO 6: Lillian -->
+        <div class="video-card" onclick="togglePlayVideo(6)">
+          <video id="video-player-6" class="video-element" playsinline preload="metadata" loop muted onloadedmetadata="this.currentTime=0.1">
+            <source src="videos/depoimento6.mp4#t=0.1" type="video/mp4">
+          </video>
+          <div class="play-overlay" id="play-overlay-6">
+            <div class="play-btn-circle">
+              <i class="fa-solid fa-play ml-0.5" id="play-icon-6"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- VÍDEO 7: Ana -->
+        <div class="video-card" onclick="togglePlayVideo(7)">
+          <video id="video-player-7" class="video-element" playsinline preload="metadata" loop muted onloadedmetadata="this.currentTime=0.1">
+            <source src="videos/depoimento7.mp4#t=0.1" type="video/mp4">
+          </video>
+          <div class="play-overlay" id="play-overlay-7">
+            <div class="play-btn-circle">
+              <i class="fa-solid fa-play ml-0.5" id="play-icon-7"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- DUPLICAÇÃO PARA EFEITO LOOP INFINITO PERFEITO -->
+        <div class="video-card" onclick="togglePlayVideo(1)">
+          <video class="video-element" playsinline preload="metadata" loop muted onloadedmetadata="this.currentTime=0.1">
+            <source src="videos/depoimento1.mp4#t=0.1" type="video/mp4">
+          </video>
+          <div class="play-overlay">
+            <div class="play-btn-circle">
+              <i class="fa-solid fa-play ml-0.5"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-card" onclick="togglePlayVideo(2)">
+          <video class="video-element" playsinline preload="metadata" loop muted onloadedmetadata="this.currentTime=0.1">
+            <source src="videos/depoimento2.mp4#t=0.1" type="video/mp4">
+          </video>
+          <div class="play-overlay">
+            <div class="play-btn-circle">
+              <i class="fa-solid fa-play ml-0.5"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-card" onclick="togglePlayVideo(3)">
+          <video class="video-element" playsinline preload="metadata" loop muted onloadedmetadata="this.currentTime=0.1">
+            <source src="videos/depoimento3.mp4#t=0.1" type="video/mp4">
+          </video>
+          <div class="play-overlay">
+            <div class="play-btn-circle">
+              <i class="fa-solid fa-play ml-0.5"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- 7. SEÇÃO DE OFERTA / CHECKOUT (CARD DA OFERTA) -->
+  <section id="oferta" class="py-14 sm:py-24 bg-gradient-to-b from-cream-100 via-cream-50 to-cream-100 border-b border-cream-300/80">
+    <div class="max-w-xl mx-auto px-4 sm:px-6">
+      
+      <!-- Card Oficial de Oferta -->
+      <div class="card-sales p-6 sm:p-10 bg-white border-2 border-gold-400 shadow-card text-center relative overflow-hidden">
+        
+        <!-- Badge Promocional -->
+        <div class="mb-4">
+          <span class="inline-block px-3 py-1 rounded-full bg-cream-200 text-gold-700 text-[11px] font-mono font-bold uppercase tracking-wider border border-gold-300">
+            OFERTA ESPECIAL POR TEMPO LIMITADO
+          </span>
+          <h2 class="font-heading text-xl sm:text-2xl font-extrabold text-espresso-900 mt-2 mb-1">
+            A Chave para a Autoconfiança
+          </h2>
+          <p class="text-xs sm:text-sm text-espresso-600">
+            Acesso completo e imediato ao método + todos os bônus
+          </p>
+        </div>
+
+        <!-- Checklist do que está incluso -->
+        <div class="space-y-2.5 text-xs sm:text-sm text-espresso-800 text-left my-6 pb-6 border-b border-cream-300">
+          <div class="flex items-center justify-between">
+            <span class="flex items-center gap-2">
+              <i class="fa-solid fa-circle-check text-emerald-600"></i>
+              <span class="font-semibold text-espresso-900">Curso Completo em Vídeo (3 Módulos)</span>
+            </span>
+            <span class="text-emerald-700 font-mono font-bold text-xs">INCLUSO</span>
+          </div>
+          <div class="flex items-center justify-between">
+            <span class="flex items-center gap-2">
+              <i class="fa-solid fa-circle-check text-emerald-600"></i>
+              <span>Apostila: A Chave para a Autoconfiança</span>
+            </span>
+            <span class="text-gold-700 font-mono font-bold text-xs">BÔNUS 01</span>
+          </div>
+          <div class="flex items-center justify-between">
+            <span class="flex items-center gap-2">
+              <i class="fa-solid fa-circle-check text-emerald-600"></i>
+              <span>Guia de Limites e Posicionamento</span>
+            </span>
+            <span class="text-gold-700 font-mono font-bold text-xs">BÔNUS 02</span>
+          </div>
+          <div class="flex items-center justify-between">
+            <span class="flex items-center gap-2">
+              <i class="fa-solid fa-circle-check text-emerald-600"></i>
+              <span>Exercício: Reconstruindo a Autoimagem</span>
+            </span>
+            <span class="text-gold-700 font-mono font-bold text-xs">BÔNUS 03</span>
+          </div>
+          <div class="flex items-center justify-between">
+            <span class="flex items-center gap-2">
+              <i class="fa-solid fa-shield text-emerald-600"></i>
+              <span>Garantia Incondicional de 7 Dias</span>
+            </span>
+            <span class="text-emerald-700 font-mono font-bold text-xs">RISCO ZERO</span>
+          </div>
+        </div>
+
+        <!-- Bloco de Preço -->
+        <div class="bg-cream-50 rounded-2xl p-4 sm:p-6 border border-cream-300 mb-6">
+          <p class="text-espresso-500 line-through text-xs sm:text-sm font-mono mb-0.5">
+            De R$ 97,00
+          </p>
+          <span class="text-[11px] uppercase tracking-widest text-gold-700 font-bold block mb-1">
+            HOJE POR APENAS:
+          </span>
+          <div class="flex items-baseline justify-center gap-1">
+            <span class="text-xl sm:text-2xl text-espresso-600 font-bold font-heading">R$</span>
+            <span class="text-5xl sm:text-6xl font-black text-espresso-900 font-heading tracking-tight">47<span class="text-2xl sm:text-3xl text-gold-600">,90</span></span>
+          </div>
+          <p class="text-[11px] sm:text-xs text-espresso-600 mt-1 font-mono">
+            Pagamento único • Sem mensalidades
+          </p>
+        </div>
+
+        <!-- Botão de Checkout Hotmart -->
+        <a 
+          href="https://payfast.greenn.com.br/redirect/316707" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="btn-emerald-cta shimmer-effect w-full min-h-[56px] sm:min-h-[62px] inline-flex items-center justify-center px-5 py-4 text-sm sm:text-base rounded-2xl uppercase font-black tracking-wide text-center gap-2"
+        >
+          <span>QUERO DESTRAVAR MINHA AUTOCONFIANÇA</span>
+          <i class="fa-solid fa-arrow-right text-xs"></i>
+        </a>
+
+        <!-- Microcopy de Segurança -->
+        <div class="mt-4 flex flex-wrap items-center justify-center gap-3 text-[11px] sm:text-xs text-espresso-600">
+          <span><i class="fa-solid fa-bolt text-gold-600 mr-1"></i> Acesso Imediato</span>
+          <span>•</span>
+          <span><i class="fa-solid fa-lock text-emerald-600 mr-1"></i> Pagamento 100% Seguro</span>
+          <span>•</span>
+          <span><i class="fa-solid fa-shield-halved text-emerald-600 mr-1"></i> 7 Dias de Garantia</span>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- 8. SEÇÃO DA EXPERT -->
+  <section class="py-12 sm:py-20 bg-cream-50 border-b border-cream-300/80">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6">
+      
+      <div class="card-sales p-6 sm:p-10 bg-white flex flex-col md:flex-row items-center gap-6 sm:gap-10 border-2 border-gold-400/50">
+        
+        <!-- Foto da Mentora -->
+        <div class="flex-shrink-0 text-center">
+          <div class="relative w-36 h-36 sm:w-48 sm:h-48 rounded-full overflow-hidden border-4 border-gold-400 shadow-glow-gold mx-auto bg-white">
+            <img 
+              src="https://api-thumbor.hotmart.com/v4ZVWw_opvtYHsFc45r8YxvCgCA=/140x140/smart/filters:format(webp):background_color(white)/hotmart/product_contents/e365204e-303a-4756-9e3b-b99c7884b90a/IMG_1530.jpeg" 
+              alt="Fernanda Simões" 
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <span class="inline-block mt-2.5 text-xs uppercase tracking-widest text-gold-700 font-mono font-bold">
+            @eufernandasimoes
+          </span>
+        </div>
+
+        <!-- Bio da Mentora -->
+        <div class="space-y-3 text-center md:text-left">
+          <span class="badge-pill mb-1">
+            <i class="fa-solid fa-user-check text-gold-600"></i>
+            Sua Mentora
+          </span>
+          <h2 class="font-heading text-xl sm:text-3xl font-extrabold text-espresso-900">
+            Quem é Fernanda Simões?
+          </h2>
+          <p class="text-xs sm:text-sm text-espresso-700 leading-relaxed">
+            Fernanda Simões é terapeuta integrativa e especialista em comportamento humano, com atuação em Análise Corporal aplicada ao autoconhecimento e desenvolvimento emocional.
+          </p>
+          <p class="text-xs sm:text-sm text-espresso-700 leading-relaxed">
+            Sua abordagem prática busca ajudar pessoas a compreenderem não apenas seus comportamentos, mas os padrões que estão por trás deles, trazendo mais consciência e segurança para suas decisões, limites e forma de se posicionar.
+          </p>
+          <div class="p-3 bg-cream-50 rounded-xl border border-cream-300 text-espresso-900 text-xs sm:text-sm font-semibold">
+            "Autoconhecimento não serve apenas para entender quem você é. Serve para dar a liberdade de escolher quem você quer ser."
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- 9. SEÇÃO: GARANTIA INCONDICIONAL -->
+  <section class="py-12 sm:py-16 bg-white border-b border-cream-300/80">
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 text-center">
+      
+      <div class="card-sales p-6 sm:p-8 bg-cream-50 border border-cream-400 flex flex-col sm:flex-row items-center gap-5 text-center sm:text-left">
+        <div class="w-16 h-16 rounded-2xl bg-cream-200 border border-gold-300 flex items-center justify-center text-3xl text-gold-600 flex-shrink-0 mx-auto sm:mx-0">
+          <i class="fa-solid fa-shield-halved"></i>
+        </div>
+        <div>
+          <h3 class="font-heading text-base sm:text-lg font-bold text-espresso-900 mb-1">
+            Garantia Incondicional de 7 Dias
+          </h3>
+          <p class="text-xs sm:text-sm text-espresso-700 leading-relaxed">
+            Você tem 7 dias completos para assistir às aulas e aplicar os exercícios. Se por qualquer motivo sentir que o método não é para você, basta solicitar o reembolso na plataforma com 1 clique. Seu risco é zero.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- 10. SEÇÃO: PERGUNTAS FREQUENTES (FAQ) -->
+  <section class="py-12 sm:py-20 bg-cream-50 border-b border-cream-300/80">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-xl mx-auto mb-8 sm:mb-12">
+        <span class="badge-pill mb-2.5">
+          <i class="fa-solid fa-circle-question text-gold-600"></i>
+          Dúvidas Comuns
+        </span>
+        <h2 class="section-title">
+          Perguntas Frequentes
+        </h2>
+      </div>
+
+      <div class="space-y-3">
+        
+        <div class="card-sales overflow-hidden border border-cream-300 bg-white">
+          <button class="faq-toggle w-full p-4 sm:p-5 text-left flex items-center justify-between gap-3 text-espresso-900 font-bold text-xs sm:text-base hover:text-gold-700 transition">
+            <span>Para quem é A Chave para a Autoconfiança?</span>
+            <i class="fa-solid fa-plus faq-icon text-gold-600 transition-transform duration-300 text-xs"></i>
+          </button>
+          <div class="faq-content px-4 sm:px-5 pb-4 text-espresso-700 text-xs sm:text-sm leading-relaxed">
+            Para qualquer pessoa que se sinta travada pela insegurança, medo do julgamento, comparação excessiva ou autossabotagem, e que queira tomar decisões com mais firmeza e segurança.
+          </div>
+        </div>
+
+        <div class="card-sales overflow-hidden border border-cream-300 bg-white">
+          <button class="faq-toggle w-full p-4 sm:p-5 text-left flex items-center justify-between gap-3 text-espresso-900 font-bold text-xs sm:text-base hover:text-gold-700 transition">
+            <span>Preciso já fazer terapia para entender o conteúdo?</span>
+            <i class="fa-solid fa-plus faq-icon text-gold-600 transition-transform duration-300 text-xs"></i>
+          </button>
+          <div class="faq-content px-4 sm:px-5 pb-4 text-espresso-700 text-xs sm:text-sm leading-relaxed">
+            Não. O método foi desenvolvido de forma simples, didática e prática, para que qualquer pessoa consiga aplicar os exercícios por conta própria no cotidiano.
+          </div>
+        </div>
+
+        <div class="card-sales overflow-hidden border border-cream-300 bg-white">
+          <button class="faq-toggle w-full p-4 sm:p-5 text-left flex items-center justify-between gap-3 text-espresso-900 font-bold text-xs sm:text-base hover:text-gold-700 transition">
+            <span>Como e quando recebo o acesso?</span>
+            <i class="fa-solid fa-plus faq-icon text-gold-600 transition-transform duration-300 text-xs"></i>
+          </button>
+          <div class="faq-content px-4 sm:px-5 pb-4 text-espresso-700 text-xs sm:text-sm leading-relaxed">
+            O acesso é liberado imediatamente após a confirmação do pagamento. Você receberá um e-mail de confirmação com seu link de login e senha para acessar a plataforma.
+          </div>
+        </div>
+
+        <div class="card-sales overflow-hidden border border-cream-300 bg-white">
+          <button class="faq-toggle w-full p-4 sm:p-5 text-left flex items-center justify-between gap-3 text-espresso-900 font-bold text-xs sm:text-base hover:text-gold-700 transition">
+            <span>Posso assistir pelo celular?</span>
+            <i class="fa-solid fa-plus faq-icon text-gold-600 transition-transform duration-300 text-xs"></i>
+          </button>
+          <div class="faq-content px-4 sm:px-5 pb-4 text-espresso-700 text-xs sm:text-sm leading-relaxed">
+            Sim! Todo o curso é 100% responsivo e pode ser acessado pelo celular, tablet ou computador, a qualquer hora do dia.
+          </div>
+        </div>
+
+        <div class="card-sales overflow-hidden border border-cream-300 bg-white">
+          <button class="faq-toggle w-full p-4 sm:p-5 text-left flex items-center justify-between gap-3 text-espresso-900 font-bold text-xs sm:text-base hover:text-gold-700 transition">
+            <span>Por quanto tempo terei acesso ao curso?</span>
+            <i class="fa-solid fa-plus faq-icon text-gold-600 transition-transform duration-300 text-xs"></i>
+          </button>
+          <div class="faq-content px-4 sm:px-5 pb-4 text-espresso-700 text-xs sm:text-sm leading-relaxed">
+            Você terá acesso durante 1 ano completo para rever as aulas e baixar os materiais quantas vezes desejar.
+          </div>
+        </div>
+
+      </div>
+
+      <!-- CTA Final pós FAQ -->
+      <div class="text-center mt-10">
+        <a 
+          href="#oferta" 
+          class="btn-gold-cta shimmer-effect inline-flex items-center justify-center px-8 py-4 text-sm sm:text-base rounded-2xl uppercase font-black tracking-wide gap-2 shadow-glow-gold"
+        >
+          <span>QUERO GARANTIR MINHA VAGA POR R$ 47,90</span>
+          <i class="fa-solid fa-arrow-up text-xs"></i>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- 11. RODAPÉ -->
+  <footer class="py-8 bg-cream-200 border-t border-cream-300 text-espresso-600 text-xs text-center">
+    <div class="max-w-4xl mx-auto px-4 space-y-2.5">
+      <div class="flex flex-wrap justify-center gap-3 sm:gap-6 text-espresso-800 font-semibold text-xs">
+        <span>A Chave para a Autoconfiança</span>
+        <span>•</span>
+        <span>Fernanda Simões</span>
+        <span>•</span>
+        <a href="https://www.instagram.com/eufernandasimoes/" target="_blank" rel="noopener noreferrer" class="hover:text-gold-700 transition">
+          <i class="fa-brands fa-instagram"></i> Instagram Oficial
+        </a>
+      </div>
+      <p class="text-espresso-500 max-w-xl mx-auto leading-relaxed text-[11px]">
+        Este produto possui caráter de desenvolvimento pessoal e autoconhecimento e não substitui acompanhamento médico ou psicológico profissional. Copyright © 2026 Fernanda Simões. Todos os direitos reservados.
+      </p>
+    </div>
+  </footer>
+
+
+  <!-- SCRIPTS -->
+  <script>
+    // Contador regressivo
+    function startCountdown() {
+      let duration = 15 * 60;
+      const display = document.getElementById('countdown-timer');
+      if (!display) return;
+      
+      setInterval(function () {
+        let minutes = parseInt(duration / 60, 10);
+        let seconds = parseInt(duration % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;
+
+        if (--duration < 0) duration = 15 * 60;
+      }, 1000);
+    }
+
+    // FAQ Accordion
+    document.querySelectorAll('.faq-toggle').forEach(button => {
+      button.addEventListener('click', () => {
+        const content = button.nextElementSibling;
+        const icon = button.querySelector('.faq-icon');
+        const isOpen = content.classList.contains('open');
+
+        document.querySelectorAll('.faq-content').forEach(c => {
+          c.classList.remove('open');
+          c.style.maxHeight = null;
+        });
+        document.querySelectorAll('.faq-icon').forEach(i => {
+          i.classList.remove('fa-minus');
+          i.classList.add('fa-plus');
+        });
+
+        if (!isOpen) {
+          content.classList.add('open');
+          content.style.maxHeight = content.scrollHeight + 'px';
+          icon.classList.remove('fa-plus');
+          icon.classList.add('fa-minus');
+        }
+      });
+    });
+
+    // CONTROLE DE VÍDEO & PAUSA NO CARROSSEL
+    let currentPlayingVideo = null;
+
+    function togglePlayVideo(idx) {
+      const track = document.getElementById('video-track-element');
+      const video = document.getElementById('video-player-' + idx);
+      const overlay = document.getElementById('play-overlay-' + idx);
+      const icon = document.getElementById('play-icon-' + idx);
+
+      if (!video) return;
+
+      // Se já estava tocando este vídeo, pausa
+      if (currentPlayingVideo === idx) {
+        video.pause();
+        if (overlay) overlay.classList.remove('playing');
+        if (icon) icon.className = 'fa-solid fa-play ml-0.5';
+        currentPlayingVideo = null;
+        if (track) track.classList.remove('paused');
+      } else {
+        // Pausa vídeo anterior se houver
+        if (currentPlayingVideo !== null) {
+          const prevVideo = document.getElementById('video-player-' + currentPlayingVideo);
+          const prevOverlay = document.getElementById('play-overlay-' + currentPlayingVideo);
+          const prevIcon = document.getElementById('play-icon-' + currentPlayingVideo);
+          if (prevVideo) prevVideo.pause();
+          if (prevOverlay) prevOverlay.classList.remove('playing');
+          if (prevIcon) prevIcon.className = 'fa-solid fa-play ml-0.5';
+        }
+
+        // Toca o vídeo atual com som
+        video.muted = false;
+        
+        const playPromise = video.play();
+        if (playPromise !== undefined) {
+          playPromise.then(() => {
+            if (overlay) overlay.classList.add('playing');
+            if (icon) icon.className = 'fa-solid fa-pause';
+          }).catch(e => {
+            console.log('Playback error:', e);
+          });
+        }
+
+        currentPlayingVideo = idx;
+        if (track) track.classList.add('paused');
+      }
+    }
+
+    // Inicializa os frames do vídeo
+    window.addEventListener('DOMContentLoaded', () => {
+      startCountdown();
+      for (let i = 1; i <= 7; i++) {
+        const v = document.getElementById('video-player-' + i);
+        if (v) {
+          v.currentTime = 0.1;
+        }
+      }
+    });
+  </script>
+
+</body>
+</html>
